@@ -1,0 +1,162 @@
+a {
+    text-decoration: none;
+    color: red;
+}
+
+li {
+     list-style-type: none;
+    
+}
+
+.navbar {
+    height: 35px;
+    padding-top: 10px;
+    margin-top: 0px;
+    display: inline;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.outer {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.inner {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(237, 183, 214);
+}
+
+@media ( min-width : 200px) and (max-width : 1000px) {
+    .outer {
+        background-color: yellow;
+        border-radius: 20%;
+    }
+    .inner {
+        background-color: blue ;
+        border-radius: 50%;
+    }
+    a {
+        color: blue;
+    }
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+     flex-wrap: wrap; 
+    align-items: center;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#box1 {
+    background-color: brown;
+    /* flex-grow: 1; */
+}
+#box2 {
+    background-color: blue;
+    /* align-self: center; */
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+}
+#box3 {
+    background-color: pink;
+}
+#box4 {
+    background-color: yellow;
+}
+#box5 {
+    background-color: skyblue;
+}
+@media (max-width : 300px) {
+    .box1 {
+        background-color:rgb(237, 249, 95);
+        border-radius: 50%;
+    }
+    .box2 {
+        background-color: rgb(144, 144, 230);
+        border-radius: 50%;
+    }
+    .box3 {
+        background-color: rgb(24, 243, 75);
+        border-radius: 50%;
+    }
+    .box4 {
+        background-color: rgb(218, 15, 39);
+        border-radius: 50%;
+    }
+    .box5 {
+        background-color: rgb(4, 4, 251);
+        border-radius: 50%;
+    }
+}
+@media (min-width : 300px) and ( max-width : 400px){
+    .box1 {
+        background-color:rgb(131, 249, 95);
+        border: 2px red dashed;
+    }
+    .box2 {
+        background-color: rgb(4, 4, 223);
+        border: 2px red dashed;
+    }
+    .box3 {
+        background-color: rgb(243, 148, 24);
+        border: 2px red dashed;
+    }
+    .box4 {
+        background-color: rgb(218, 15, 181);
+        border: 2px red dashed;
+    }
+    .box5 {
+        background-color: rgb(10, 169, 222);
+        border: 2px red dashed;
+    }
+}
+@media (min-width : 600px) {
+    .box1 {
+        background-color:rgb(238, 116, 8);
+        border: 2px white dotted;
+    }
+    .box2 {
+        background-color: rgb(11, 11, 109);
+        border: 2px white dotted;
+    }
+    .box3 {
+        background-color: rgb(243, 24, 225);
+        border: 2px white dotted;
+    }
+    .box4 {
+        background-color: rgb(218, 106, 15);
+        border: 2px white dotted;
+    }
+    .box5 {
+        background-color: rgb(5, 33, 3);
+        border: 2px white dotted;
+    }
+}
